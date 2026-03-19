@@ -22,10 +22,9 @@ python3 scanner.py 192.168.1.1 -p 1-1000 -o results.txt
 
 ## Output Examples
 
-1.Basic scan:
+1. Basic scan:
 python3 scanner.py 192.168.56.108
---------------------------------------------------
-Scanning target: 192.168.56.108
+--------------------------------------------------                                                                                                         Scanning target: 192.168.56.108
 Ports: 1-100
 Time started: 2026-03-19 15:54:17.893412
 --------------------------------------------------
@@ -39,10 +38,9 @@ Time started: 2026-03-19 15:54:17.893412
 Scan completed.
 
 
-2.scan specific port range:
+2. scan specific port range:
 python3 scanner.py 192.168.56.108 -p 1-1000
---------------------------------------------------
-Scanning target: 192.168.56.108
+--------------------------------------------------                                                                                                         Scanning target: 192.168.56.108
 Ports: 1-1000
 Time started: 2026-03-19 15:56:15.211436
 --------------------------------------------------
@@ -60,6 +58,9 @@ Time started: 2026-03-19 15:56:15.211436
 [+] Port 513 is open | Service: No banner
 
 Scan completed.
+
+## screenshot
+![scanner output](scan-example.png)
 
 ## Skills Demonstrated
 
