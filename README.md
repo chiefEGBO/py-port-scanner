@@ -115,3 +115,9 @@ For educational purposes only. Do not scan systems without permission.
 
 ## Requirements
 - Python 3.x
+
+## Future Imrovements
+* Add UDP scanning
+* Add OS detection
+* Improve banner detection
+* Export results in JSON format
